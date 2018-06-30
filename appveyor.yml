@@ -37,6 +37,9 @@ before_build:
 build:
   verbosity: minimal
 configuration: Release
+test:
+  assemblies:
+    - '**\*Tests.dll'
 after_build:
 - ps: >-
     & dotnet c:\projects\nuget\tools_15\after.dll CDorst nuget c:\projects\nuget\tmp

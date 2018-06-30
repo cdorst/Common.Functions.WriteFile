@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Functions.WriteFile", "Common.Functions.WriteFile\Common.Functions.WriteFile.csproj", "{30C28196-B9D9-4C4E-82C4-83ACD3170867}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Functions.WriteFile", "Common.Functions.WriteFile\Common.Functions.WriteFile.csproj", "{30C28196-B9D9-4C4E-82C4-83ACD3170867}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AEC26CE6-DEA1-4226-80D8-6BC217F585D2}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+		LICENSE = LICENSE
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
